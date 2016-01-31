@@ -31,7 +31,7 @@ The activities variable is then applied to the y_dataset to update the values wi
 
 Then the 'x' data set has been appropriately labeled with correct the column names, the 'y' data set has been appropriately labeled with descriptive the column names, and the 'subject' data set has been appropriately labeled with descriptive the column names.
 
-# Variables used for producing output: 
+# Variables used for producing the output: 
 1. The single_dataset variable contains one single data set by merging (cbind'ing) x_dataset, y_dataset and subject_dataset.
 2. The averages_data_by_subject_activity variable contains a second, independent tidy data set with the average of each variable for each activity and each subject.
 
