@@ -8,7 +8,7 @@ The dataset that is being used for this project is Human Activity Recognition Us
 
 In addition to this README.md file, this repository contains the following three files:
 
-1. "run_analysis.R": This is the R script for performing the analysis.
+1. "run_analysis.R": This is the R script for performing the analysis. This R script needs to be launched within the RStudio, and should be run from the main working directory where the uncompressed/unaltered Samsung data is also available.
 
 2. "CodeBook.md": This code book describes the variables, the data, and any transformations or work that has been performed to clean up the data.
 
