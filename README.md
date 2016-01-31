@@ -8,8 +8,8 @@ The dataset that is being used for this project is Human Activity Recognition Us
 
 In addition to this README.md file, this repository contains the following three files:
 
-1. “run_analysis.R”: This is the R script for performing the analysis.
+1. "run_analysis.R": This is the R script for performing the analysis.
 
-2. “CodeBook.md”: This code book describes the variables, the data, and any transformations or work that has been performed to clean up the data.
+2. "CodeBook.md": This code book describes the variables, the data, and any transformations or work that has been performed to clean up the data.
 
-3. “sensor_averages_by_subject_activity.txt”: This is final independent output tidy data set with the average of each variable for each activity and each subject.
+3. "sensor_averages_by_subject_activity.txt": This is final independent output tidy data set with the average of each variable for each activity and each subject.
