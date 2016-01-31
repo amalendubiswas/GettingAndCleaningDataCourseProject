@@ -25,9 +25,11 @@ This CodeBook.md file describes the variables, the data, and any transformations
 3. The subject_dataset variable contains one 'subject' data set by merging (rbind'ing) subject_train and subject_test data sets.
 
 # Variables used for extracting only the measurements on the mean and standard deviation for each measurement:
-1. The features_mean_or_std (a numeric vector) variable contains only columns (measurements) that has mean() or std() in their column names (measurements) for each measurement. The features_mean_or_std variable is then applied to the x_dataset to subset the desired columns.
+1. The features_mean_or_std (a numeric vector) variable contains only columns (measurements) that has mean() or std() in their column names (measurements) for each measurement. 
 
-The activities variable is then applied to the y_dataset to update the values with correct activity names. This is for useing descriptive activity names to name the activities in the data set.
+The features_mean_or_std variable is then applied to the x_dataset to subset the desired columns.
+
+The activities variable is then applied to the y_dataset to update the values with correct activity names. This is for using descriptive activity names to name the activities in the data set.
 
 Then the 'x' data set has been appropriately labeled with correct the column names, the 'y' data set has been appropriately labeled with descriptive the column names, and the 'subject' data set has been appropriately labeled with descriptive the column names.
 
