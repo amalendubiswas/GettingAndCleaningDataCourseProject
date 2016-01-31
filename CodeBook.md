@@ -20,20 +20,22 @@ This CodeBook.md file describes the variables, the data, and any transformations
 4. The activities variable contains the activity labels loaded from the "activity_labels.txt" located under "UCI HAR Dataset" folder under the working directory.
 
 # Variables used for merging the training and the test sets to create one data set:
-The x_dataset variable contains one 'x' data set by merging (rbind'ing) X_train and X_test data sets.
-The y_dataset variable contains one 'y' data set by merging (rbind'ing) y_train and y_test data sets.
-The subject_dataset variable contains one 'subject' data set by merging (rbind'ing) subject_train and subject_test data sets.
+1. The x_dataset variable contains one 'x' data set by merging (rbind'ing) X_train and X_test data sets.
+2. The y_dataset variable contains one 'y' data set by merging (rbind'ing) y_train and y_test data sets.
+3. The subject_dataset variable contains one 'subject' data set by merging (rbind'ing) subject_train and subject_test data sets.
 
 # Variables used for extracting only the measurements on the mean and standard deviation for each measurement:
-The features_mean_or_std (a numeric vector) variable contains only columns (measurements) that has mean() or std() in their column names (measurements) for each measurement. The features_mean_or_std variable is then applied to the x_dataset to subset the desired columns.
+1. The features_mean_or_std (a numeric vector) variable contains only columns (measurements) that has mean() or std() in their column names (measurements) for each measurement. The features_mean_or_std variable is then applied to the x_dataset to subset the desired columns.
 
 The activities variable is then applied to the y_dataset to update the values with correct activity names. This is for useing descriptive activity names to name the activities in the data set.
 
 Then the 'x' data set has been appropriately labeled with correct the column names, the 'y' data set has been appropriately labeled with descriptive the column names, and the 'subject' data set has been appropriately labeled with descriptive the column names.
 
 # Variables used for producing output: 
-The single_dataset variable contains one single data set by merging (cbind'ing) x_dataset, y_dataset and subject_dataset.
-The averages_data_by_subject_activity variable contains a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. The single_dataset variable contains one single data set by merging (cbind'ing) x_dataset, y_dataset and subject_dataset.
+2. The averages_data_by_subject_activity variable contains a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 The mean function has been applied to the single dataset variable single_dataset with the average of each variable for each activity and each subject. The ddply() function within the plyr package has been utilized to apply colMeans().
+
 The sensor_averages_by_subject_activity.txt file contains the final independent output tidy file with the average of each variable for each activity and each subject. This output file will be created under the working directory.
 
