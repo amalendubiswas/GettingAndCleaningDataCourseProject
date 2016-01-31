@@ -6,3 +6,7 @@ The data for the project can be located at https://d396qusza40orc.cloudfront.net
 
 The dataset that is being used for this project is Human Activity Recognition Using Smartphones Data Set and can be located at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+In addition to this README.md file, this repository contains the following three files:
+1. “run_analysis.R”: This is the R script for performing the analysis.
+2. “CodeBook.md”: This code book describes the variables, the data, and any transformations or work that has been performed to clean up the data.
+3. “sensor_averages_by_subject_activity.txt”: This is final independent output tidy data set with the average of each variable for each activity and each subject.
